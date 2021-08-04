@@ -1,0 +1,103 @@
+@media (max-width:1000px){
+
+    #home{
+        height: auto;
+    }
+
+    #home nav {
+        display: none;
+    }
+
+    #home header{
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .presentacion{
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    header .dibujo{
+        width: 50%;
+        justify-content: center;
+        
+    }
+
+    header img{
+        padding-top: 8%;
+    }
+
+    #conocimientos hr {
+        display: none;    
+    }
+
+    #proyectos .tarjetas{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #contacto{
+        width: 900px;
+    }
+}
+
+@media (max-width:900px){
+    .cuadricula {
+        max-width: 90%;
+        justify-content: center;
+        
+    }
+
+    .cuadricula .itemcuadricula{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #proyectos .tarjetas{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tarjetas .itemtarjetas{
+        min-width: 47%;
+    }
+
+    #contacto{
+        background-color: transparent;
+        border: transparent;
+        width: 90%;
+    }
+
+    .contactame, #formulario {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contactame .redes {
+        margin-top: 10px;
+    }
+
+    .redes .item-redes{
+        width: 280px;
+        height: 20px;
+        display: inline-flex;
+    }
+    
+}
+
+@media (max-width:768px){
+    
+}
+
+@media (max-width:600px){
+    .cuadricula {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
