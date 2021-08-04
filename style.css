@@ -12,10 +12,6 @@ gris: #2e2e31;
 azul violaceo: #474bffff;
 naranja: #de6903ff;  
 
-
-pesos de fuente:
-100;200;300;600;700
-
 */
 
 .general {
@@ -23,7 +19,7 @@ pesos de fuente:
     flex-direction: column;
     justify-content: center;
     background-color: whitesmoke;
-    /*background-color: rgb(249, 247, 207);*/
+    
 }
 
 a{
@@ -196,27 +192,28 @@ header img {
 }
 
 .cuadricula {
-    max-width: 800px; /*(60%)*/
+    width: 60%; /*(60%)*/
     padding-top: 7%;
     padding-bottom: 7%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
+    border: 1px solid yellow;
 }
 
 .cuadricula .itemcuadricula{
-    width: 250px;
-    height: 220px;
+    width: 31%;/*250px*/ /*height:220px*/
+    padding-top: 5%;
+    padding-bottom: 5%;
     background:white;
     margin-bottom: 20px;
     border:1px solid rgb(128, 128, 128,0.5);
     border-radius: 8px;
     transition: all 1s 0s;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     color:#2e2e31;
 }
 
@@ -305,7 +302,7 @@ header img {
 }
 
 #proyectos .tarjetas {
-    max-width: 930px; /*(75%)*/
+    width: 70%;
     padding-top: 7%;
     padding-bottom: 7%;
     display: flex;
@@ -314,15 +311,12 @@ header img {
     margin: 0 auto;
     color:#2e2e31;
     font-weight: 300;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    border: 1px solid red;
 }
 
 .tarjetas .itemtarjetas{
-    
-    max-width: 31%;/*280px*/
-    margin: 10px;
+    width: 31%;/*280px*/
+    margin-bottom: 3%;
     border:1px solid rgba(146, 88, 88, 0.5);
     border-radius: 8px;
     background-color: white;
@@ -334,12 +328,6 @@ header img {
     font-size: 0.9em;
     font-weight: 600;
 }
-
-/*.tarjetas .itemtarjetas:last-child{
-    background-color: transparent;
-    border: none;
-}*/
-
 
 .tarjetas .itemtarjetas p {
     padding-bottom: 30px;
@@ -424,7 +412,6 @@ header img {
     justify-content: center;
     flex-direction: column;
     padding-right: 30px;
-    border: 1px solid;
 }
 
 #formulario form{
@@ -434,39 +421,29 @@ header img {
     color: black;
     font-size: 0.9em;
     font-weight: 300;
-    
 }
 
 #formulario .contentrow1 {
     display: flex;
     justify-content: space-between;
-    
-    border: brown 1px solid;
-
 }
 
 #formulario .contentrow1 .row1{
     width: 47%;
-    border: 1px solid yellow;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
 }
 
 #formulario .contentrow2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid blue;
-    
-    
 }
 
 form input, form textarea{
     margin-bottom: 15px;
     font-family: "Roboto", sans-serif;
-    
     padding: 10px;
     resize: horizontal; 
     border:0;
