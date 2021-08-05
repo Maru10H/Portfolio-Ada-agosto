@@ -76,6 +76,10 @@ section h1, p {
 /*******************/
 
 /******SECCION HOME******/
+.container {
+    display: none;
+}
+
 
 #home {
     display: flex;

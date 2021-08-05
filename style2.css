@@ -1,5 +1,72 @@
 @media (max-width:1000px){
 
+    #btn-mas, .btn-mas .btn-2 {
+        display: none;
+    }
+
+    .container {
+        position: fixed;
+        bottom:20px;
+        right: 20px;
+        display: block;
+    }
+
+    .menu li{
+        list-style: none;
+        padding: 8px;
+        visibility: hidden;
+        opacity: 0;
+        margin-bottom: -15px;
+        transition: all 500ms;
+    }
+
+    #btn-mas:checked ~ .menu li{
+        visibility: visible;
+        opacity: 1;
+        margin-bottom: 10px; /*para la transicion*/
+        
+    }
+
+    #btn-mas:checked ~ .menu, .btn-mas i {
+        background-color: whitesmoke;
+    }
+    
+
+    #btn-mas:checked ~ .btn-mas .icon-mas2 i{
+        font-size: 2em;
+        color: rgb(252, 32, 32);
+        transform: rotate(180deg);
+        border-radius: 50px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+        
+    }
+
+    .menu ul a{
+        color: red;
+        text-decoration: none;
+    }
+    .menu ul li:hover{
+        background-color: red;
+    }
+
+    .menu ul a:hover {
+        color: whitesmoke;
+    }
+
+    .menu, .btn-mas {
+        text-align: center;
+        
+    }
+
+
+    .btn-mas i {
+        color: red;
+        font-size: 3.5em;
+        border-radius: 50px;
+        box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+        transition: all 500ms;
+    }
+    /*****************/
     #home{
         height: auto;
     }
