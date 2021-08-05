@@ -17,17 +17,18 @@
     header .presentacion{
         align-items: center;
         width: 100%;
-        
+        padding-top: 10%;
     }
-
+    
     header .dibujo{
-        width: 50%;
-        justify-content: center;
-        
+        min-width: 300px;
+        max-width: 350px;
     }
-
-    header img{
-        padding-top: 8%;
+    
+    header img {
+        width: 100%; 
+        padding-top: 30%;
+        padding-bottom: 10%;
     }
 
     .conocimientos p,
@@ -57,14 +58,10 @@
         font-size: 1.3em;
     }
 
-    #proyectos .tarjetas p{
-        font-size: 1.1em;
-    }  
-
     #formulario p {
         font-size: 1.1em;
     }
-
+/*******/
 
     #conocimientos hr {
         display: none;    
@@ -75,7 +72,23 @@
     }
 }
 
+
 @media (max-width:900px){
+    header .presentacion{
+        padding-top: 15%;
+    }
+    
+    header .dibujo{
+        min-width: 300px;
+        max-width: 350px;
+    }
+    
+    header img {
+        width: 100%; 
+        padding-top: 30%;
+        padding-bottom: 10%;
+    }
+
     .cuadricula {
         width: 500px;
    }
@@ -91,7 +104,7 @@
     .cuadricula .itemcuadricula i {
         font-size: 5.5em;
     }
-
+/****/
     .conocimientos p,
     #cita p,
     .proyectos p,
@@ -126,10 +139,25 @@
     #formulario p {
         font-size: 1.1em;
     }
-
-    /*.tarjetas .itemtarjetas{
-        width: 60%;
-    }*/
+/********/
+    #proyectos .tarjetas{
+        width: 85%;
+    }
+    
+    .tarjetas .itemtarjetas{
+        width: 48%;
+        margin-bottom: 3%;
+        font-size: 0.9em;
+    }
+    
+    .tarjetas .itemtarjetas p {
+        padding-bottom: 10%;
+        
+    }
+    
+    #proyectos img {
+        padding-top: 8%;
+    }    
 
     #contacto{
         background-color: transparent;
@@ -155,7 +183,23 @@
     
 }
 
+
 @media (max-width:600px){
+    header .presentacion{
+        padding-top: 20%;
+    }
+    
+    header .dibujo{
+        width: 250px;
+    }
+    
+    header img {
+        width: 100%; 
+        padding-top: 30%;
+        padding-bottom: 10%;
+    }
+
+/****************/
     .cuadricula {
         width: 400px;
    }
@@ -212,6 +256,26 @@
     #formulario p {
         font-size: 1.1em;
     }
+/*********/
+
+    #proyectos .tarjetas{
+        width: 85%;
+    }
+
+    .tarjetas .itemtarjetas{
+        width: 48%;
+        margin-bottom: 3%;
+        font-size: 0.9em;
+    }
+
+    .tarjetas .itemtarjetas p {
+        padding-bottom: 10%;
+        
+    }
+
+    #proyectos img {
+        padding-top: 8%;
+    }    
 
     #contacto{
         background-color: transparent;
@@ -245,10 +309,11 @@
     header .presentacion{
         text-align: center;
         line-height: 1.2em;
+         padding-top: 20%;
     }
 
     header .presentacion h3{
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     header .presentacion h1{
@@ -259,11 +324,23 @@
     header .presentacion p {
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
+    header .dibujo{
+        width: 55%;
+    }
+    
+    
+    header img {
+        width: 100%; 
+        padding-top: 30%;
+        padding-bottom: 10%;
+    }
+
+
     .cuadricula {
-        width: 300px;
+        width: 80%;
    }
 
     .cuadricula .itemcuadricula{
@@ -272,6 +349,10 @@
         padding-top: 10%;
         padding-bottom: 10%;
         margin-bottom: 4%;
+    }
+
+    .cuadricula .itemcuadricula p {
+        font-size: 1.2em;
     }
 
     .cuadricula .itemcuadricula i {
@@ -285,7 +366,7 @@
     .proyectos p,
     .contactame,
     footer p{
-        font-size: 1em;
+        font-size: 1.1em;
     }
     
     #conocimientos h1,
@@ -316,19 +397,12 @@
         font-size: 1.3em;
     }
 
-    #proyectos .tarjetas p{
-        font-size: 1.4em;
-    }  
-
     #formulario p {
         font-size: 1.1em;
     }
+    
 /********/
-    #proyectos .tarjetas p{
-        font-size: 1.1em;
-    }  
-
-
+    
     #proyectos .tarjetas{
         width: 80%;
     }
@@ -336,6 +410,7 @@
     .tarjetas .itemtarjetas{
         width: 100%;
         margin-bottom: 6%;
+        font-size: 0.9em;
     }
 
     .tarjetas .itemtarjetas p {
@@ -364,8 +439,8 @@
     }
 
     .redes .item-redes{
-        width: 300px;
         display: inline-flex;
+        font-size: 0.9em;
     }
 
 
@@ -387,6 +462,7 @@
     header .presentacion{
         text-align: center;
         line-height: 1.2em;
+        padding-top: 20%;
     }
 
     header .presentacion h3{
@@ -404,18 +480,35 @@
         font-size: 0.9em;
     }
 
-    .cuadricula{
-        justify-content: center;
+    header .dibujo{
+        width: 70%;
     }
 
-    .cuadricula .itemcuadricula{
+    header img {
+        width: 100%; 
+        padding-top: 30%;
+        padding-bottom: 10%;
+    }
+
+    .cuadricula {
         width: 80%;
-        padding-top: 15%;
-        padding-bottom: 15%;
+   }
+
+    .cuadricula .itemcuadricula{
+        width: 100%;
+        line-height: 0.5em;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-bottom: 4%;
+        
+    }
+
+    .cuadricula .itemcuadricula p {
+        font-size: 1.2em;
     }
 
     .cuadricula .itemcuadricula i {
-        font-size: 5em;
+        font-size: 6em;
     }
 
     /**********/
@@ -451,14 +544,11 @@
         font-size: 1.3em;
     }
 
-    #proyectos .tarjetas p{
-        font-size: 1.1em;
-    }  
-
+    
     #formulario p {
         font-size: 1.1em;
     }
-
+/******/
     #proyectos .tarjetas{
         width: 80%;
     }
@@ -466,15 +556,21 @@
     .tarjetas .itemtarjetas{
         width: 100%;
         margin-bottom: 6%;
+        font-size: 0.9em;
     }
 
     .tarjetas .itemtarjetas p {
         padding-bottom: 10%;
+        
     }
 
     #proyectos img {
         padding-top: 8%;
     }    
+/******/
+
+
+
 
     #contacto {
         background-color: transparent;
@@ -493,8 +589,9 @@
     }
 
     .redes .item-redes{
-        width: 300px;
+        
         display: inline-flex;
+        font-size: 1em;
     }
 
     #formulario .contentrow1{

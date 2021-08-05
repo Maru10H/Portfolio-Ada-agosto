@@ -6,14 +6,6 @@
    
 }
 
-
-/*
-gris: #2e2e31;
-azul violaceo: #474bffff;
-naranja: #de6903ff;  
-
-*/
-
 .general {
     display: flex;
     flex-direction: column;
@@ -21,6 +13,14 @@ naranja: #de6903ff;
     background-color: whitesmoke;
     
 }
+
+/**ESTILOS GENERALES***/
+/*
+gris: #2e2e31;
+azul violaceo: #474bffff;
+naranja: #de6903ff;  
+
+*/
 
 a{
     text-decoration: none;
@@ -73,6 +73,9 @@ section h1, p {
 .btn-sinfondo:focus {
     box-shadow: 1px 2px 16px -3px #de6903ff;
 }
+/*******************/
+
+/******SECCION HOME******/
 
 #home {
     display: flex;
@@ -160,7 +163,7 @@ header img {
     padding-top: 25%;
     padding-bottom: 7%;
 }
-
+/******FIN DE SECCION HOME******/
 
 /*---INICIO SECCION CONOCIMIENTOS---*/
 
@@ -199,7 +202,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
-    border: 1px solid yellow;
 }
 
 .cuadricula .itemcuadricula{
@@ -252,6 +254,10 @@ header img {
  
 }
 
+/*---FIN SECCION CONOCIMIENTOS---*/
+
+/*---SECCION CITA---*/
+
 #cita {
     background-color: rgb(170, 170, 170);
     display: flex;   
@@ -277,7 +283,7 @@ header img {
     padding-top: 2%;
     color: #474bffff;
 }
-
+/*---SECCION CITA---*/
 
 /*-----SECCION PROYECTOS-----*/
 #proyectos {
@@ -311,11 +317,11 @@ header img {
     margin: 0 auto;
     color:#2e2e31;
     font-weight: 300;
-    border: 1px solid red;
+   
 }
 
 .tarjetas .itemtarjetas{
-    width: 31%;/*280px*/
+    width: 31%;
     margin-bottom: 3%;
     border:1px solid rgba(146, 88, 88, 0.5);
     border-radius: 8px;
@@ -554,6 +560,5 @@ footer .lista .item a i:hover{
 
 
 footer .lista, p{
-    
     padding-bottom: 2%;
 }
