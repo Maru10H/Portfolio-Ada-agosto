@@ -1,5 +1,5 @@
 @media (max-width:1000px){
-
+     
     #btn-mas, .btn-mas .btn-2 {
         display: none;
     }
@@ -34,7 +34,7 @@
 
     #btn-mas:checked ~ .btn-mas .icon-mas2 i{
         font-size: 2em;
-        color: rgb(252, 32, 32);
+        color: rgb(95, 97, 252);
         transform: rotate(180deg);
         border-radius: 50px;
         box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
@@ -42,15 +42,15 @@
     }
 
     .menu ul a{
-        color: red;
+        color: #474bffff;
         text-decoration: none;
     }
     .menu ul li:hover{
-        background-color: red;
+        background-color: #2e2e31;
     }
 
     .menu ul a:hover {
-        color: whitesmoke;
+        color: #de6903ff;
     }
 
     .menu, .btn-mas {
@@ -60,7 +60,7 @@
 
 
     .btn-mas i {
-        color: red;
+        color: #474bffff;
         font-size: 3.5em;
         border-radius: 50px;
         box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
@@ -70,17 +70,17 @@
     #home{
         height: auto;
     }
-
+    
     #home nav {
         display: none;
     }
-
+    
     #home header{
         justify-content: center;
         width: 100%;
         margin: 0 auto;
     }
-
+    
     header .presentacion{
         align-items: center;
         width: 100%;
@@ -97,7 +97,7 @@
         padding-top: 30%;
         padding-bottom: 10%;
     }
-
+    
     .conocimientos p,
     #cita p,
     .proyectos p,
@@ -124,38 +124,27 @@
     #cita h3{
         font-size: 1.3em;
     }
-
+    
     #formulario p {
         font-size: 1.1em;
     }
-/*******/
-
+    /*******/
+    
     #conocimientos hr {
         display: none;    
     }
-
+    
     #contacto{
         width: 900px;
     }
+    
 }
-
 
 @media (max-width:900px){
     header .presentacion{
         padding-top: 15%;
     }
     
-    header .dibujo{
-        min-width: 300px;
-        max-width: 350px;
-    }
-    
-    header img {
-        width: 100%; 
-        padding-top: 30%;
-        padding-bottom: 10%;
-    }
-
     .cuadricula {
         width: 500px;
    }
@@ -172,29 +161,12 @@
         font-size: 5.5em;
     }
 /****/
-    .conocimientos p,
-    #cita p,
-    .proyectos p,
-    .contactame,
-    footer p{
-        font-size: 1em;
-    }
-    
-    #conocimientos h1,
-    #proyectos h1,
-    #contacto h1 {
-        font-size: 1.5em;
-    }
-    
+        
     .conocimientos,
     .proyectos {
         padding-top: 15%;
     }
-    
-    #cita .quote{
-        font-size: 5em;
-    }
-    
+        
     #cita h3{
         font-size: 1.4em;
     }
@@ -203,9 +175,6 @@
         font-size: 1.2em;
     }  
 
-    #formulario p {
-        font-size: 1.1em;
-    }
 /********/
     #proyectos .tarjetas{
         width: 85%;
@@ -250,7 +219,6 @@
     
 }
 
-
 @media (max-width:600px){
     header .presentacion{
         padding-top: 20%;
@@ -260,24 +228,10 @@
         width: 250px;
     }
     
-    header img {
-        width: 100%; 
-        padding-top: 30%;
-        padding-bottom: 10%;
-    }
-
 /****************/
     .cuadricula {
         width: 400px;
    }
-
-    .cuadricula .itemcuadricula{
-        width: 48%;
-        line-height: 0.5em;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        margin-bottom: 4%;
-    }
 
     .cuadricula .itemcuadricula i {
         font-size: 5em;
@@ -298,67 +252,13 @@
         font-size: 1.6em;
     }
     
-    .conocimientos,
-    .proyectos {
-        padding-top: 15%;
-    }
     
     #cita {
         padding-top: 17%;
         padding-bottom: 17%;
     }
 
-    #cita .quote{
-        font-size: 5em;
-    }
-    
-    #cita h3{
-        font-size: 1.4em;
-    }
-
-    #proyectos .tarjetas p{
-        font-size: 1.2em;
-    }  
-
-    #formulario p {
-        font-size: 1.1em;
-    }
-/*********/
-
-    #proyectos .tarjetas{
-        width: 85%;
-    }
-
-    .tarjetas .itemtarjetas{
-        width: 48%;
-        margin-bottom: 3%;
-        font-size: 0.9em;
-    }
-
-    .tarjetas .itemtarjetas p {
-        padding-bottom: 10%;
-        
-    }
-
-    #proyectos img {
-        padding-top: 8%;
-    }    
-
-    #contacto{
-        background-color: transparent;
-        border: transparent;
-        width: 90%;
-    }
-
-    .contactame, #formulario {
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .contactame .redes {
-        margin-top: 10px;
-    }
+/****/
 
     .redes .item-redes{
         width: 300px;
@@ -376,7 +276,6 @@
     header .presentacion{
         text-align: center;
         line-height: 1.2em;
-         padding-top: 20%;
     }
 
     header .presentacion h3{
@@ -398,25 +297,9 @@
         width: 55%;
     }
     
-    
-    header img {
-        width: 100%; 
-        padding-top: 30%;
-        padding-bottom: 10%;
-    }
-
-
     .cuadricula {
         width: 80%;
    }
-
-    .cuadricula .itemcuadricula{
-        width: 48%;
-        line-height: 0.5em;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        margin-bottom: 4%;
-    }
 
     .cuadricula .itemcuadricula p {
         font-size: 1.2em;
@@ -427,14 +310,6 @@
     }
 
 /************/
-
-    .conocimientos p,
-    #cita p,
-    .proyectos p,
-    .contactame,
-    footer p{
-        font-size: 1.1em;
-    }
     
     #conocimientos h1,
     #proyectos h1,
@@ -451,23 +326,10 @@
         font-size: 0.9em;
     }
 
-    #cita {
-        padding-top: 17%;
-        padding-bottom: 17%;
-    }
-
     #cita .quote{
         font-size: 4.5em;
     }
-    
-    #cita h3{
-        font-size: 1.3em;
-    }
-
-    #formulario p {
-        font-size: 1.1em;
-    }
-    
+        
 /********/
     
     #proyectos .tarjetas{
@@ -478,31 +340,6 @@
         width: 100%;
         margin-bottom: 6%;
         font-size: 0.9em;
-    }
-
-    .tarjetas .itemtarjetas p {
-        padding-bottom: 10%;
-    }
-
-    #proyectos img {
-        padding-top: 8%;
-    }  
-
-
-    #contacto{
-        background-color: transparent;
-        border: transparent;
-        width: 90%;
-    }
-
-    .contactame, #formulario {
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .contactame .redes {
-        margin-top: 10px;
     }
 
     .redes .item-redes{
@@ -519,18 +356,9 @@
         width: 100%;
     }
 
-    #lista1 {
-        display: none;
-    }
 }
 
 @media (max-width:320px){
-
-    header .presentacion{
-        text-align: center;
-        line-height: 1.2em;
-        padding-top: 20%;
-    }
 
     header .presentacion h3{
         font-size: 1.3em;
@@ -542,24 +370,12 @@
     }
 
     header .presentacion p {
-        padding-left: 20px;
-        padding-right: 20px;
         font-size: 0.9em;
     }
 
     header .dibujo{
         width: 70%;
     }
-
-    header img {
-        width: 100%; 
-        padding-top: 30%;
-        padding-bottom: 10%;
-    }
-
-    .cuadricula {
-        width: 80%;
-   }
 
     .cuadricula .itemcuadricula{
         width: 100%;
@@ -570,9 +386,6 @@
         
     }
 
-    .cuadricula .itemcuadricula p {
-        font-size: 1.2em;
-    }
 
     .cuadricula .itemcuadricula i {
         font-size: 6em;
@@ -587,90 +400,11 @@
         font-size: 0.9em;
     }
     
-    #conocimientos h1,
-    #proyectos h1,
-    #contacto h1 {
-        font-size: 1.5em;
-    }
-    
-    .conocimientos,
-    .proyectos {
-        padding-top: 20%;
-    }
-    
-    #cita {
-        padding-top: 17%;
-        padding-bottom: 17%;
-    }
-
-    #cita .quote{
-        font-size: 4.5em;
-    }
-    
-    #cita h3{
-        font-size: 1.3em;
-    }
-
-    
-    #formulario p {
-        font-size: 1.1em;
-    }
 /******/
-    #proyectos .tarjetas{
-        width: 80%;
-    }
-
-    .tarjetas .itemtarjetas{
-        width: 100%;
-        margin-bottom: 6%;
-        font-size: 0.9em;
-    }
-
-    .tarjetas .itemtarjetas p {
-        padding-bottom: 10%;
-        
-    }
-
-    #proyectos img {
-        padding-top: 8%;
-    }    
-/******/
-
-
-
-
-    #contacto {
-        background-color: transparent;
-        border: transparent;
-        width: 90%;
-    }
-
-    .contactame, #formulario {
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .contactame .redes {
-        margin-top: 10px;
-    }
-
+   
     .redes .item-redes{
-        
         display: inline-flex;
         font-size: 1em;
     }
 
-    #formulario .contentrow1{
-        flex-direction: column;
-    }
-
-    #formulario .contentrow1 .row1{
-        width: 100%;
-    }
-
-    #lista1 {
-        display: none;
-    }
 }
-
